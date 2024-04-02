@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodjes-dashboard-final"
+  description: "nothing"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/nodjes-dashboard-final"
+    argocd/app-name: "nodjes-dashboard-final"
+  links:
+    - url: https://final-crm.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
