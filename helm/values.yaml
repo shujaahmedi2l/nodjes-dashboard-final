@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/nodjes-dashboard-final
-  tag: 'latest'
+  tag: bb405a8961d981ef4c09c52a5f29efedce184fe1
   pullPolicy: Always
 
 service:
